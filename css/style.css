@@ -1,0 +1,856 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1a2b51;
+}
+
+nav {
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.overall-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 4rem;
+}
+
+.grocery-logo {
+    display: flex;
+}
+
+.logo-image {
+    max-width: 35px;
+    max-height: 35px;
+    padding-right: 7px;
+}
+
+.grocery-logo a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.grocery-logo h1 {
+    font-size: 48px;
+    margin: 0 auto;
+    color: #1a2b51;
+    line-height: 1;
+}
+
+.cart-icon {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+}
+
+.cart-icon a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.cart-icon img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.cart-icon h5 {
+    margin: 0;
+    font-size: 15px;
+    padding-left: 7px;
+}
+
+
+/* banner section */
+
+.banner {
+    background-image: url(/images/pattern_waves_new.png);
+    background-color: #d3eeff;
+    padding-top: 3.5rem;
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 50%;
+}
+
+.row .column h1 {
+    color: #e21372;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1;
+}
+
+.row .column h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.four-images {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.four-images li {
+    width: 20%;
+    padding-right: 1rem;
+    line-height: 1rem;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+.four-images div {
+    background-color: #fff;
+    border: 1px dotted #e21372;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.four-images div p {
+    max-width: 75px;
+    margin: 1rem auto 0.35rem;
+}
+
+.column.person {
+    text-align: center;
+}
+
+
+/* new section */
+
+.first-order {
+    background-color: #d3eeff;
+    border-top: 1px dashed #e21372;
+    border-bottom: 1px dashed #e21372;
+    padding: 2rem 2rem;
+}
+
+.img-box {
+    position: relative;
+}
+
+.order-offer {
+    display: flex;
+    justify-content: center;
+}
+
+.order-offer a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 2.5;
+    font-weight: 600;
+}
+
+.order-offer a span {
+    color: #e21372;
+}
+
+.category h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+/* new section */
+
+.column-33 {
+    width: 30.33%;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.product {
+    border-radius: 0.6rem;
+    background-repeat: no-repeat;
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.dal {
+    color: rgb(226, 19, 114);
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    max-width: 180px;
+    margin: 0px auto;
+    line-height: 1.4rem;
+}
+
+.more {
+    background-color: #e21372;
+    border-radius: 2rem;
+    max-width: 90px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.product.image-1 {
+    background-image: url(/images/nevaga_2-1024x1024-370x370.jpg);
+}
+
+.product.image-2 {
+    background-image: url(/images/cheapest-car-insurance-in-new-jersey-nj-story-370x370.jpg);
+}
+
+.product.image-3 {
+    background-image: url(/images/new-york-city-skyline-at-dusk-zo-cf1a9c35-370x370.jpg);
+}
+
+.product.image-4 {
+    background-image: url(/images/hugine.png);
+}
+
+.product.image-5 {
+    background-image: url(/images/beverages.png);
+}
+
+.product.image-6 {
+    background-image: url(/images/hk.png);
+}
+
+
+/* new section */
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.view-all a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding-right: 3rem;
+}
+
+.column-offers {
+    width: 23.4%;
+    position: relative;
+    padding-right: 1rem;
+}
+
+.column-offers img {
+    width: 100%;
+}
+
+.buy-one {
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.buy {
+    font-size: 1.1rem;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.free {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ibaco {
+    display: flex;
+}
+
+.prod {
+    font-size: 1rem;
+    color: #768092;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+}
+
+.shop-now {
+    background: #e21372;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    max-width: 70px;
+}
+
+
+/* new section bank offers */
+
+.bw-offers {
+    padding-bottom: 3rem;
+}
+
+.bank h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.bank {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column35 {
+    width: 35%;
+    padding-right: 1rem;
+}
+
+.column35 img {
+    width: 100%;
+}
+
+.column20 {
+    width: 20%;
+}
+
+.column20 {
+    max-width: 165px;
+}
+
+
+/* new section */
+
+.quick {
+    padding-bottom: 2rem;
+}
+
+.fresh-vegetables {
+    background-image: url(/images/fresh.png);
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 2rem 3rem 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fresh-vegetables h3 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 2rem;
+    margin: 0;
+    padding-bottom: 0.6rem;
+}
+
+.straight p {
+    padding-bottom: 3rem;
+    margin: 0;
+}
+
+.shopsy {
+    color: #fff;
+    background-color: #e21372;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+}
+
+
+/* footer section */
+
+.footer-background {
+    background-color: #1a2b51;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.row-one {
+    padding-top: 1.5rem;
+}
+
+.column-one {
+    width: 30%;
+}
+
+.column-mid {
+    width: 20%;
+}
+
+.help {
+    padding-bottom: 0.7rem;
+    margin: 0;
+}
+
+.call-us {
+    border-left: 3px solid #e21372;
+    margin-bottom: 2rem;
+}
+
+.us,
+.mail {
+    padding-left: 1.2rem;
+    color: #e21372;
+    margin: 0;
+    padding-bottom: 0.7rem;
+    opacity: 0.8;
+}
+
+.phone,
+.mail-id {
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+.email-us {
+    border-left: 3px solid #e21372;
+}
+
+
+
+.pay {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.reserved {
+    padding-bottom: 0.5rem;
+    font-size: 0.5rem;
+    margin: 0;
+}
+
+.need-help {
+    padding-top: 1rem;
+}
+
+.titles {
+    padding-left: 2rem;
+}
+
+.titles li {
+    list-style-type: none;
+    padding-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.iconic {
+    padding-right: 2rem;
+}
+
+.icons-finder {
+    display: flex;
+}
+
+.icons-finder li {
+    color: #fff;
+    list-style-type: none;
+    padding-right: 1rem;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Responsive css */
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 850px;
+    }
+
+    .four-images li {
+        width: 25%;
+    }
+
+    .first-order .order-offer img {
+        max-width: 55px;
+    }
+
+    .order-offer a {
+        font-size: 1.25rem;
+    }
+
+    .column-offers {
+        width: 22.4%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .row .column h1 {
+        font-size: 3rem;
+    }
+
+    .row .column h2 {
+        font-size: 1.5rem;
+    }
+
+    .four-images li {
+        width: 22.5%;
+        padding-right: 0.5rem;
+    }
+
+    .four-images li div {
+        padding: 0.75rem;
+    }
+
+    .four-images li div img {
+        max-width: 45px;
+        min-height: 45px;
+        max-height: 45px;
+    }
+
+    .four-images div p {
+        font-size: 0.75rem;
+    }
+
+    .column.person img {
+        max-width: 250px;
+    }
+
+    .order-offer a {
+        font-size: 1.1rem;
+    }
+
+    .first-order .order-offer img {
+        max-width: 50px;
+    }
+
+    .column-33 {
+        width: 29.5%;
+        padding-right: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+
+    .buy {
+        font-size: 1rem;
+    }
+
+    .free {
+        font-size: 1.2rem;
+    }
+
+    .prod {
+        font-size: .9rem;
+    }
+
+    .column20 p {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    .fresh-vegetables h3 {
+        font-size: 2.5rem;
+    }
+
+    .footer-background {
+        font-size: 0.9rem;
+    }
+
+    .titles li {
+        padding-bottom: 1.25rem;
+        font-size: 0.75rem;
+    }
+
+    .phone,
+    .mail-id {
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .overall-one {
+        padding: 0.5rem 2rem;
+    }
+
+    .logo-image {
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    .grocery-logo h1 {
+        font-size: 40px;
+    }
+
+    .cart-icon img {
+        max-width: 28px;
+        max-height: 28px;
+    }
+
+    .cart-icon h5 {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 500px;
+    }
+
+    .row .column h1 {
+        font-size: 2.5rem;
+    }
+
+    .row .column h2 {
+        font-size: 1.25rem;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .four-images div p {
+        max-width: 65px;
+    }
+
+    .column.person {
+        padding-top: 2rem;
+    }
+
+    .order-offer a {
+        font-size: 1rem;
+        max-width: 350px;
+    }
+
+    .column-33,
+    .column-offers {
+        width: 45%;
+    }
+
+    .column-offers {
+        padding-bottom: 1.5rem;
+    }
+
+    .column20 {
+        max-width: inherit;
+        width: 100%;
+        text-align: center;
+    }
+
+    .column35 {
+        width: 100%;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .column35 img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .fresh-vegetables h3 {
+        font-size: 2rem;
+    }
+
+    .straight p {
+        font-size: 0.85rem;
+    }
+
+    .shopsy {
+        padding: 0.65rem;
+        font-size: 0.85rem;
+    }
+
+    .column-one,
+    .column-mid {
+        width: 50%;
+    }
+
+    .titles {
+        padding-left: 0rem;
+    }
+
+    .pay {
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .logo-image {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .overall-one {
+        padding: 0.5rem 1rem;
+    }
+
+    .grocery-logo h1 {
+        font-size: 20px;
+    }
+
+    .cart-icon {
+        padding-top: 0px;
+    }
+
+    .cart-icon img {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .cart-icon h5 {
+        font-size: 10px;
+    }
+
+    .banner {
+        padding-top: 2.5rem;
+    }
+
+    .container {
+        max-width: 275px;
+    }
+
+    .row .column h1 {
+        font-size: 2.0rem;
+    }
+
+    .row .column h2 {
+        font-size: 1rem;
+    }
+
+    .four-images {
+        flex-wrap: wrap;
+    }
+
+    .four-images li {
+        width: 45%;
+        padding-right: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .column.person {
+        padding-top: 0rem;
+    }
+
+    .column.person img {
+        max-width: 180px;
+    }
+
+    .first-order .order-offer img {
+        max-width: 45px;
+    }
+
+    .order-offer a {
+        font-size: 0.9rem;
+    }
+
+    .category h3,
+    .products h3,
+    .bank h3 {
+        font-size: 1.2rem;
+    }
+
+    .column-33,
+    .column-offers {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .dal {
+        font-size: 1.0rem;
+    }
+
+    .more {
+        max-width: 80px;
+    }
+
+    .view-all {
+        min-width: 70px;
+    }
+
+    .view-all a {
+        padding-right: 0;
+    }
+
+    .fresh-vegetables {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .fresh-vegetables h3 {
+        font-size: 1.3rem;
+    }
+
+    .straight p {
+        padding-bottom: 2rem;
+    }
+
+    .shopsy {
+        padding: 0.45rem;
+        font-size: 0.65rem;
+    }
+
+    .column-one,
+    .column-mid {
+        width: 100%;
+    }
+
+    .help {
+        font-size: 0.8rem;
+    }
+
+    .call-us,
+    .email-us {
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .phone,
+    .mail-id {
+        font-size: 0.8rem;
+        padding-left: 1rem;
+    }
+
+    .pay {
+        padding-bottom: 0.8rem;
+    }
+
+    .footer-section {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .need-help {
+        text-align: center;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .titles {
+        text-align: center;
+    }
+}
