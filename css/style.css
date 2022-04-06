@@ -70,7 +70,7 @@ a {
 /* banner section */
 
 .banner {
-    background-image: url(./images/pattern_waves_new.png);
+    background-image: url(../images/pattern_waves_new.png);
     background-color: #d3eeff;
     padding-top: 3.5rem;
 }
@@ -211,27 +211,27 @@ a {
 }
 
 .product.image-1 {
-    background-image: url(./images/nevaga_2-1024x1024-370x370.jpg);
+    background-image: url(../images/nevaga_2-1024x1024-370x370.jpg);
 }
 
 .product.image-2 {
-    background-image: url(./images/cheapest-car-insurance-in-new-jersey-nj-story-370x370.jpg);
+    background-image: url(../images/cheapest-car-insurance-in-new-jersey-nj-story-370x370.jpg);
 }
 
 .product.image-3 {
-    background-image: url(./images/new-york-city-skyline-at-dusk-zo-cf1a9c35-370x370.jpg);
+    background-image: url(../images/new-york-city-skyline-at-dusk-zo-cf1a9c35-370x370.jpg);
 }
 
 .product.image-4 {
-    background-image: url(./images/hugine.png);
+    background-image: url(../images/hugine.png);
 }
 
 .product.image-5 {
-    background-image: url(./images/beverages.png);
+    background-image: url(../images/beverages.png);
 }
 
 .product.image-6 {
-    background-image: url(./images/hk.png);
+    background-image: url(../images/hk.png);
 }
 
 
@@ -351,7 +351,7 @@ a {
 }
 
 .fresh-vegetables {
-    background-image: url(./images/fresh.png);
+    background-image: url(../images/fresh.png);
     color: #fff;
     font-size: 1rem;
     margin: 0;
